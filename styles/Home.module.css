@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+
+.progress {
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.progressLabel {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.progressBar {
+  height: 20px;
+  border-radius: 10px;
+  background-color: #ddd;
+  overflow: hidden;
+}
+
+.progressFill {
+  height: 100%;
+  background-color: green; /* Use green color for the progress bar */
+}
+
+.tokenPrice {
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #f8f8f8;
+}
+
+.claimContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tokenInput {
+  width: 200px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.claimButton {
+  padding: 10px 20px;
+  background-color: #007bff; /* Change the button color as desired */
+  color: #fefefe;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tokensReceived {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #002fff;
+}
+
