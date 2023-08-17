@@ -8,7 +8,7 @@ function Home() {
   const [currentTokenPrice, setCurrentTokenPrice] = useState(0.025); // Set your token price here
 
   const totalSupply = 10000000; // Total supply of GamFi tokens in the first phase presale
-  const tokensSold = 452; // Number of tokens already sold
+  const tokensSold = 1000452; // Number of tokens already sold
 
   const handleCalculate = () => {
     const busdAmount = parseFloat(busdToSpend);
